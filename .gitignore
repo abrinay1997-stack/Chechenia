@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+data/users.db
+data/users.db-journal
+hits/
+results/
+*.log
+.DS_Store
+config.json
+emails.txt

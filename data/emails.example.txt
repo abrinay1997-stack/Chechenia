@@ -1,0 +1,10 @@
+# Lista de ejemplo. Una dirección por línea.
+# Si pegas email:pass, solo se usa el email. Las contraseñas se ignoran.
+
+ana@chechenia.local
+carlos@chechenia.local
+soporte@chechenia.local
+nuevo@chechenia.local
+no-existe@midominio.com
+correo-malo
+admin@chechenia.local
