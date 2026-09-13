@@ -5,7 +5,7 @@ from typing import Optional
 
 from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, Field
 
 from . import db
 
@@ -25,7 +25,7 @@ app.add_middleware(
 
 
 class RegisterIn(BaseModel):
-    email: EmailStr
+    email: str
     password: str = Field(min_length=8, max_length=128)
 
 
